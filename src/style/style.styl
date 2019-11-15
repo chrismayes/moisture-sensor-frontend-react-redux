@@ -1,0 +1,85 @@
+/*#################*/
+/* Local CSS Files */
+/*#################*/
+
+@import "crypto.styl";
+
+
+/*#######*/
+/* FONTS */
+/*#######*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500)
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons')
+
+/*###############*/
+/* HTML ELEMENTS */
+/*###############*/
+
+@media screen
+  html
+    height: 100%
+
+  body
+    font-family: Roboto,arial,verdana,serif
+    line-height: 1.5em
+    margin: 0
+    padding: 0
+    overflow-y: scroll
+    background-color: white
+    width: 100%
+    height: 100%
+
+  .root
+    width: 100%
+    height: 100%
+
+  a
+    color: #0098DB
+    text-decoration: none
+    word-wrap: break-word
+
+  a[name], a[name]:hover
+    color: black
+    text-shadow: none
+
+  a:link
+    color: #0098DB
+    text-decoration: none
+
+  a:visited
+    color: #0098DB
+    text-decoration: none
+
+  a:active
+    color: #0098DB
+    text-decoration: none
+
+  a:hover
+    color: #0098DB
+    text-decoration: none
+    text-shadow: 2px 2px 3px #DDD
+
+  table
+    font-family: Roboto,arial,verdana,serif
+    line-height: 1.5em
+    border-spacing: 0
+    border-collapse: separate
+
+  table.altColor thead tr
+    background-color: #BBB
+
+  thead tr td h3
+    margin: 2px
+
+  table.altColor tbody tr:nth-child(even)
+    background-color: #DDD
+
+  table.altColor tbody tr:nth-child(odd)
+    background-color: #EEE
+
+  td
+    padding: 4px
+
+  input::-ms-clear, input::-ms-reveal
+    display: none
