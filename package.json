@@ -6,7 +6,7 @@
 	"scripts": {
 		"build": "SET NODE_BUILD=dev&&SET NODE_ENV=dev&&SET BABEL_ENV=dev&& webpack --config webpack.config.dev.js",
 		"server": "SET NODE_BUILD=dev&&SET NODE_ENV=dev&&SET BABEL_ENV=dev&& node devServer.js",
-		"start": "node devServer.js",
+		"start": "node devServer.js"
 	},
 	"author": "Chris Mayes",
 	"dependencies": {
