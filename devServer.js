@@ -17,6 +17,6 @@ app.get('*', function(req, res) {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-app.listen(8998, '127.0.0.1', function() {
-  console.log('Listening at http://127.0.0.1:8998');
+app.listen(443, 'master.moisture-sensor-frontend-react-redux.amplifyapp.com', function() {
+  console.log('Listening at https://master.moisture-sensor-frontend-react-redux.amplifyapp.com');
 });
